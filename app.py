@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
+import geopy
 import google.generativeai as genai
 from dotenv import load_dotenv
 from geopy.geocoders import Nominatim
