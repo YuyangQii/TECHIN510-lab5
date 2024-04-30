@@ -9,6 +9,14 @@ Welcome to "Craft Your Journey", a personalized travel planning application desi
 - Geocoding: Visualize your destination with an integrated map view to better plan your journey.
 - Notes and Keywords: Add personal notes or keywords to focus the travel planning on your particular interests.
 
+## How to start
+```bash
+python -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
 ## What I Learned
 - API Integration: Enhanced skills in integrating external APIs (Google Generative AI and Geopy) to fetch and utilize dynamic data.
 - User Interface Design: Developed an understanding of creating user-friendly and interactive web interfaces.
